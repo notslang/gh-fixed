@@ -1,0 +1,11 @@
+{
+  "content_scripts": [{
+    "matches": ["*://github.com/*"],
+    "css": ["index.css"],
+    "run_at": "document_idle"
+  }],
+  "description": "Improvements for GitHub",
+  "name": "GitHub: Fixed",
+  "version": "0.0.0",
+  "manifest_version": 2
+}
