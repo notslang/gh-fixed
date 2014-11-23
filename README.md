@@ -11,6 +11,7 @@ I also have a few things that I want to get around to implementing:
 - Make the issue and PR counts show up on the minimized nav-bar
 - Implement a responsive layout using flexbox (removing all those floats in the process)
 - Add an indication of whether anyone you're following has starred the repo you're looking at.
+- Parsing comments that just say "+1" or ":thumbs-up:" and displaying them differently (with less padding and probably as a different color) so they are separate from the rest of the discussion.
 
 
 ## how to use
