@@ -6,7 +6,9 @@ plusOneContent = [
 
 simplifyPlusOnes = ->
   for comment in document.querySelectorAll('.timeline-comment-wrapper')
-    commentContent = comment.querySelector('.comment-body p').innerHTML
+    commentContent = comment.querySelector(
+      '.comment-body p, .email-fragment'
+    ).innerHTML
     if commentContent.trim() in plusOneContent
       avatar = comment.querySelector('.timeline-comment-avatar')
       userLink = avatar.parentNode.getAttribute('href')
@@ -29,6 +31,7 @@ simplifyPlusOnes = ->
         </div>
       </div>
       """
+  return
 
 simplifyPlusOnes()
 
