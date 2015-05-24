@@ -1,0 +1,13 @@
+{
+  "title": "GitHub: Fixed",
+  "name": "gh-fixed",
+  "version": "0.0.1",
+  "description": "Improvements for GitHub",
+  "main": "index.js",
+  "author": "Sean Lang <slang800@gmail.com>",
+  "engines": {
+    "firefox": ">=38.0a1",
+    "fennec": ">=38.0a1"
+  },
+  "license": "WTFPL"
+}
