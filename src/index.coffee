@@ -5,7 +5,6 @@ plusOneContent = [
 ]
 
 simplifyPlusOnes = ->
-  console.log 'running'
   for comment in document.querySelectorAll('.timeline-comment-wrapper')
     commentContent = comment.querySelector('.comment-body p').innerHTML
     if commentContent.trim() in plusOneContent
