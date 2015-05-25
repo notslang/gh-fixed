@@ -17,3 +17,12 @@ Since I really don't feel like paying the fee to host this extension on the Chro
 
 ### firefox
 Firefox doesn't have a fee, so you can download it from the [Add-ons Site](https://addons.mozilla.org/en-US/firefox/addon/github-fixed/). It's also avaliable by downloading the XPI file from the [releases page](https://github.com/slang800/gh-fixed/releases).
+
+## screen-shots
+Issues page and +1 simplifier:
+
+![Issues page and +1 simplifier](https://raw.githubusercontent.com/slang800/psychic-ninja/master/gh-fixed-1.png)
+
+Repo front page:
+
+![Repo front page](https://raw.githubusercontent.com/slang800/psychic-ninja/master/gh-fixed-2.png)
